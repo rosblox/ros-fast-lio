@@ -1,0 +1,6 @@
+[submodule "FAST_LIO"]
+	path = FAST_LIO
+	url = https://github.com/rosblox/FAST_LIO
+[submodule "livox_ros_driver"]
+	path = livox_ros_driver
+	url = https://github.com/rosblox/livox_ros_driver.git
