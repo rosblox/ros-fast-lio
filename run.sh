@@ -1,5 +1,7 @@
 #!/bin/bash
 
+xhost +
+
 docker run -it --rm --privileged --net=host \
 --volume $(pwd)/FAST_LIO:/catkin_ws/src/FAST_LIO \
 --volume $(pwd)/livox_ros_driver:/catkin_ws/src/livox_ros_driver \
